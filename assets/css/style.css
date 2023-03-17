@@ -1,0 +1,170 @@
+/* Global __________*/
+
+* {
+    margin: 5px;
+    padding: 5px;
+    background-color: pink;
+    color: darkslategray;
+}
+
+/* Header __________*/
+
+header {
+    height: 150px;
+    background-color: palevioletred;
+}
+
+.header {
+    background-color: palevioletred;
+    font-family: "Brush Script MT";
+    font-size: 50px;
+}
+
+img {
+    display: inline;
+    float: left;
+    margin-left: auto;
+}
+
+nav {
+    background-color: palevioletred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.nav-ul {
+    background-color: palevioletred;
+}
+
+.nav {
+    display: inline;
+    float: right;
+    border-style: solid;
+    color: rosybrown;
+    box-shadow: 5px 5px rosybrown;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: mistyrose;
+    color: palevioletred;
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+ 
+
+/* Main __________*/
+
+
+
+section {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.vertical-line {
+    display: inline-block;
+    border-left: 3px solid palevioletred;
+    margin: 0px 10px;
+    height: 10px;
+    background-color: pink;
+    
+}
+
+h2 {
+    display: inline;
+}
+
+p {
+    display: inline;
+    line-height: 1.8;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.AboutMe {
+    display: inline-block;
+    width: 98%;
+    border-style: solid;
+    color: rosybrown;
+    box-shadow: 5px 5px rosybrown;
+
+}
+
+
+aside {
+    display: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: mistyrose;
+}
+
+section:hover aside {
+    display: block;
+}
+
+span {
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: mistyrose;
+    color: palevioletred;
+}
+
+.MyWorks {
+}
+
+
+.work1 {
+    display: flex;
+    height: 550px;
+    width: max-content;
+}
+
+.work2 {
+    display: flex;
+    height: 200px;
+    width: max-content;
+}
+
+.work3 {
+    display: flex;
+    height: 200px;
+    width: max-content;
+}
+
+.work4 {
+    display: flex;
+    height: 200px;
+    width: max-content;
+}
+
+.imgContainer {
+    display: inline-block;
+}
+
+.imgText {
+    position: absolute;
+}
+
+.ContactInfo {
+    width: 98%;
+    border-style: solid;
+    color: rosybrown;
+    box-shadow: 5px 5px rosybrown;
+}
+
+.CIList {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.CI {
+    display: inline;
+    position: relative;
+    left: 150px;
+    padding: 5px;
+    color: palevioletred;
+}
